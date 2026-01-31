@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/master.swiftdeps"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AppState.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioActions.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioReducer.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/Store.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/AudioDevice.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/Volume.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.dia"
+  },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.dia"
+  }
+}

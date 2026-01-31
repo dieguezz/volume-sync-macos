@@ -1,0 +1,10 @@
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AppState.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioActions.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioReducer.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/Store.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/AudioDevice.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/Volume.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift
+/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift

@@ -1,0 +1,436 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VolumeSync-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/sources",
+      "importPath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioActions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioReducer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/Store.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/AudioDevice.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/Volume.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "VolumeSync",
+      "moduleOutputPath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/Modules/VolumeSync.swiftmodule",
+      "objects" : [
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "VolumeSync_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "volumesync"
+      ],
+      "outputFileMapPath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/Modules/VolumeSync.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AppState.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioActions.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioReducer.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/Store.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/AudioDevice.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/Volume.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift"
+      ],
+      "tempsPath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VolumeSync" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VolumeSync",
+      "-package-name",
+      "volumesync",
+      "-c",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AppState.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioActions.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioReducer.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/Store.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/AudioDevice.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/Volume.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift",
+      "-I",
+      "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "VolumeSync_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "volumesync",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "VolumeSync" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync-entitlement.plist"
+    },
+    "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioActions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/AudioReducer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Application/Store.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/AudioDevice.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Domain/Volume.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/sources"
+    },
+    "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioActions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioDevice.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/AudioReducer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Store.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/Volume.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.product/Objects.LinkFileList"
+    },
+    "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
