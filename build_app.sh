@@ -1,4 +1,4 @@
-#!/bin/bash
+.#!/bin/bash
 
 APP_NAME="VolumeSync"
 BUILD_DIR=".build/release"
@@ -23,9 +23,20 @@ cp "${BUILD_DIR}/${APP_NAME}" "${APP_BUNDLE}/Contents/MacOS/"
 # Copy Info.plist
 cp "Info.plist" "${APP_BUNDLE}/Contents/Info.plist"
 
-# Copy Icon (Empty for now, or generate one?)
-# We could use the system icon if we had an .icns file.
-# cp "Icons.icns" "${APP_BUNDLE}/Contents/Resources/AppIcon.icns"
+# Generate Icon if source exists
+if [ -f "AppIconSource.png" ]; then
+    if [ ! -f "AppIcon.icns" ]; then
+        echo "🎨 Generating AppIcon.icns..."
+        chmod +x create_icns.sh
+        ./create_icns.sh
+    fi
+fi
+
+# Copy Icon
+if [ -f "AppIcon.icns" ]; then
+    echo "🎨 Copying Icon..."
+    cp "AppIcon.icns" "${APP_BUNDLE}/Contents/Resources/AppIcon.icns"
+fi
 
 echo "📝 Signing (Ad-Hoc)..."
 # To sign for App Store, you would use: --sign "Apple Distribution: ..."

@@ -1,5 +1,6 @@
 import Foundation
 import Combine
+import AppKit
 
 /// Specific Store Implementation for Audio App.
 /// Manages state and executes side-effects (interacting with CoreAudio).
@@ -60,9 +61,15 @@ final class Store: ObservableObject {
         case .setSubDeviceVolume(let id, let val):
              try? coreAudio.setVolume(Volume(val), for: id)
             
-        case .setError:
-            // Log or show alert?
-            break
+        case .setError(let message):
+            DispatchQueue.main.async {
+                let alert = NSAlert()
+                alert.messageText = "VolumeSync Error"
+                alert.informativeText = message ?? "Unknown error"
+                alert.alertStyle = .warning
+                alert.addButton(withTitle: "OK")
+                alert.runModal()
+            }
             
         default:
             break

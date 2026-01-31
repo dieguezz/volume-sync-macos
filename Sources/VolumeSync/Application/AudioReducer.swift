@@ -34,19 +34,38 @@ func audioReducer(state: AppState, action: AudioAction) -> AppState {
         }
         
     case .setVolume(let val):
-        newState.virtualVolume = Volume(val)
-        // If master changes, we might want to scale sub-devices, 
-        // but for now let's keep it simple: Master Volume sets the "ceiling" or 
-        // strictly sets all sub-devices to this level? 
-        // "Using volume keys must work independently, raising both at once".
-        // A common approach: Apply delta to all sub-devices.
-        // But if we are setting an absolute value (slider), we usually set that absolute value to the master
-        // and let the Side Effect handler apply it to all sub-devices.
+        let oldVal = state.virtualVolume.value
+        let newVal = Volume(val).value
+        let delta = newVal - oldVal
+        
+        newState.virtualVolume = Volume(newVal)
         
         if newState.virtualVolume.value == 0 {
             newState.isMuted = true
         } else {
             newState.isMuted = false
+        }
+        
+        // Update sub-devices relatively
+        if let selected = newState.selectedDevice, selected.isAggregate {
+            let updatedSubs = selected.subDevices.map { sub -> AudioDevice in
+                return AudioDevice(
+                    id: sub.id,
+                    name: sub.name,
+                    volume: Volume(sub.volume.value + delta),
+                    isMuted: sub.isMuted,
+                    isAggregate: sub.isAggregate,
+                    subDevices: sub.subDevices
+                )
+            }
+            newState.selectedDevice = AudioDevice(
+                id: selected.id,
+                name: selected.name,
+                volume: selected.volume,
+                isMuted: selected.isMuted,
+                isAggregate: selected.isAggregate,
+                subDevices: updatedSubs
+            )
         }
         
     case .setSubDeviceVolume(let id, let val):
