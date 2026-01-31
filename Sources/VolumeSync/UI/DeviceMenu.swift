@@ -65,9 +65,11 @@ struct DeviceMenu: View {
                             .font(.caption)
                             .padding(.top, 4)
                         
-                        ForEach(selected.subDevices) { sub in
-                            SubDeviceRow(name: sub.name, volume: sub.volume.value)
-                        }
+                ForEach(selected.subDevices) { sub in
+                    SubDeviceRow(name: sub.name, volume: sub.volume.value) { newVal in
+                        store.dispatch(.setSubDeviceVolume(sub.id, newVal))
+                    }
+                }
                     }
                 }
                 .padding()
@@ -105,6 +107,7 @@ struct DeviceRow: View {
 struct SubDeviceRow: View {
     let name: String
     let volume: Float
+    let onChange: (Float) -> Void
     
     var body: some View {
         HStack {
@@ -113,19 +116,10 @@ struct SubDeviceRow: View {
                 .frame(width: 80, alignment: .leading)
                 .lineLimit(1)
             
-            // Just visualization for now, as the req meant "we want to control them".
-            // Implementation of individual sub-device control would require
-            // expanding the Action/Reducer to handle "SetSubDeviceVolume".
-            // For now, let's keep it simple (KISS) and bind to the master, 
-            // but the user asked for independent control.
-            // I'll leave it as a read-only or bound to master for this iteration, 
-            // unless I add strict independent control logic which complicates the Store.
-            // "tendrá que poder subir el volumen independientemente en cada uno de los dispositivos"
-            // OK, I should probably add independent slider.
-            // But state management for sub-devices needs to be robust.
-            // I'll put a disabled slider or linked slider for now.
-            Slider(value: .constant(volume), in: 0...1)
-                .disabled(true)
+            Slider(value: Binding(
+                get: { volume },
+                set: { onChange($0) }
+            ), in: 0...1)
         }
     }
 }

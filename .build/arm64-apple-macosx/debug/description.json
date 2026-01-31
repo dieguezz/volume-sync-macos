@@ -60,6 +60,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/OSDManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift"
         },
         {
@@ -84,6 +88,7 @@
         "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/CoreAudioService.swift.o",
         "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swift.o",
         "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swift.o",
+        "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.swift.o",
         "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o"
       ],
       "otherArguments" : [
@@ -182,6 +187,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o"
         },
         {
@@ -200,6 +209,7 @@
         "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift",
         "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift",
         "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift",
+        "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/OSDManager.swift",
         "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift"
       ],
       "tempsPath" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build",
@@ -226,6 +236,7 @@
       "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/CoreAudioService.swift",
       "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/Infrastructure/MediaKeyService.swift",
       "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/DeviceMenu.swift",
+      "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/OSDManager.swift",
       "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift",
       "-I",
       "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/Modules",
@@ -363,6 +374,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/OSDManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift"
         }
       ],
@@ -402,6 +417,10 @@
         {
           "kind" : "file",
           "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/MediaKeyService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.swift.o"
         },
         {
           "kind" : "file",

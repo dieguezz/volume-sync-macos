@@ -7,6 +7,7 @@ enum AudioAction {
     case devicesUpdated([AudioDevice])
     case selectDevice(AudioObjectID)
     case setVolume(Float)
+    case setSubDeviceVolume(AudioObjectID, Float)
     case increaseVolume
     case decreaseVolume
     case toggleMute

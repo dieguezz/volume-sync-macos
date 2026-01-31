@@ -18,12 +18,22 @@ final class Store: ObservableObject {
         // Bind media key events
         self.mediaKeys.onEvent = { [weak self] action in
             DispatchQueue.main.async {
-                self?.dispatch(action)
+                guard let self = self else { return }
+                self.dispatch(action)
+                
+                // Trigger OSD for volume keys
+                if case .increaseVolume = action { self.showOSD() }
+                if case .decreaseVolume = action { self.showOSD() }
+                if case .toggleMute = action { self.showOSD() }
             }
         }
         
         // Start listening
         self.mediaKeys.start()
+    }
+    
+    private func showOSD() {
+        OSDManager.shared.show(volume: state.virtualVolume.value, isMuted: state.isMuted)
     }
     
     func dispatch(_ action: AudioAction) {
@@ -47,6 +57,9 @@ final class Store: ObservableObject {
         case .setVolume, .increaseVolume, .decreaseVolume, .toggleMute:
             applyVolumeToDevice()
             
+        case .setSubDeviceVolume(let id, let val):
+             try? coreAudio.setVolume(Volume(val), for: id)
+            
         case .setError:
             // Log or show alert?
             break
@@ -61,17 +74,17 @@ final class Store: ObservableObject {
         
         let targetVolume = state.isMuted ? Volume(0) : state.virtualVolume
         
-        // If aggregate, apply to sub-devices
+        // If aggregate, apply to sub-devices based on our STATE, not just the master virtual volume.
+        // If we just increased volume, the Reducer updated the SubDevices list in State.
+        // We should apply THOSE values.
         if device.isAggregate {
             for sub in device.subDevices {
-                try? coreAudio.setVolume(targetVolume, for: sub.id)
+                // If muted, we send 0, otherwise we use the sub-device's calculated volume from state
+                let vol = state.isMuted ? Volume(0) : sub.volume
+                try? coreAudio.setVolume(vol, for: sub.id)
             }
         } else {
             try? coreAudio.setVolume(targetVolume, for: device.id)
         }
-        
-        // Also update the UI representation of the device by refreshing?
-        // Or blindly assume it worked?
-        // Ideally we refresh devices to read back actual values, but that might be slow.
     }
 }

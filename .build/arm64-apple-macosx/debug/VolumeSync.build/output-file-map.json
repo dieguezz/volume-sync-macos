@@ -65,6 +65,13 @@
     "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.swiftdeps",
     "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/DeviceMenu.dia"
   },
+  "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/OSDManager.swift": {
+    "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.d",
+    "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.swift.o",
+    "swiftmodule": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.swiftdeps",
+    "diagnostics": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/OSDManager.dia"
+  },
   "/Users/dieguin/work/personal/volumesync/Sources/VolumeSync/UI/VolumeSyncApp.swift": {
     "dependencies": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.d",
     "object": "/Users/dieguin/work/personal/volumesync/.build/arm64-apple-macosx/debug/VolumeSync.build/VolumeSyncApp.swift.o",
