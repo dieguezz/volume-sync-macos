@@ -4,7 +4,7 @@
 
 By default, when you combine multiple speakers in macOS (e.g., two Bluetooth speakers or a USB + Bluetooth setup), the system disables volume control. VolumeSync restores that control.
 
-![VolumeSync Screenshot](../volumesync_screenshot.png) <!-- Replace with actual screenshot if available -->
+![VolumeSync Screenshot](./volumesync_screenshot.png)
 
 ## Features ✨
 
